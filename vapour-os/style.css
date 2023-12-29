@@ -1,0 +1,10 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+p {
+	font-weight: normal;
+}
