@@ -6,7 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	</head>
 	<body>
-		<iframe src="header.html" width=100% height=120pt frameBorder="0"></iframe>
+
+		<div align="center">
+			<img src="img/vapour-os-logo.jpg" alt="Vapour OS logo" height=80pt>
+			<br><br>
+			<a href="#download">Download</a> <a href="https://github.com/dankcuddlybear/Vapour-OS/wiki"> Wiki </a> <a href="https://github.com/dankcuddlybear/vapourepo">Source</a>
+		</div>
 		<div align="left">
 			<h1 align="center">A fast, easy and flexible free OS</h1>
 			<img src="img/screenshot/plasma.jpg" width=100% alt="KDE Plasma desktop">
@@ -17,7 +22,7 @@
 			<img src="img/screenshot/octopi.jpg" width=40% alt="Octopi app store on KDE Plasma desktop" align="left" style="padding-right: 2em;">
 			<h1 align="center">Abundant free software</h1>
 			<p>
-				You'll find everything you need in the official Arch Linux software repositories, as well as user-uploaded software on the Arch User Repository (AUR). Many of your favourite programs are available on Linux and even if they aren't, you'll find a alternative that's just as good, if not better. Best of all, everything is absolutely FREE! The default app store is Octopi (pictured), which makes installing and upgrading software a breeze.
+				You'll find everything you need in the official Arch Linux software repositories, as well as user-uploaded software on the Arch User Repository (AUR)<sup style="color:grey;">1</sup>. Many of your favourite programs are available on Linux and even if they aren't, you'll find a alternative that's just as good, if not better. Best of all, everything is absolutely FREE! The default app store is Octopi (pictured), which makes installing and upgrading software a breeze.
 			</p>
 			<img src="img/clear.png" width=100% height=1px>
 			<br>
@@ -31,7 +36,7 @@
 			<img src="img/screenshot/rocket-league.jpg" width=40% alt="Rocket League running on Wine" align="right" style="padding-left: 2em;">
 			<h1 align="center">For gamers</h1>
 			<p>
-				Thanks to Wine, a Microsoft Windows compatibility layer, you can run Windows software and games on Vapour OS. Pictured is the Windows version of Deltarune running on Wine. Valve's Steam store (installed seperately) provides easy access to millions of PC games. There are also many free games, ports and emulators in the Arch Linux software repositories.
+				Thanks to Wine, a Microsoft Windows compatibility layer, you can run Windows software and games on Vapour OS<sup style="color:grey;">2</sup>. Pictured is the Windows version of Deltarune running on Wine. Valve's Steam store (installed seperately) provides easy access to millions of PC games. There are also many free games, ports and emulators in the Arch Linux software repositories.
 			</p>
 			<img src="img/clear.png" width=100% height=1px>
 			<br>
@@ -39,15 +44,15 @@
 			<img src="img/screenshot/open-source.jpg" width=40% alt="Vapour OS source code on Github" align="left" style="padding-right: 2em;">
 			<h1 align="center">Open source</h1>
 			<p>
-				If you want to improve Vapour OS, make your own version or use code for your projects, all the source code is available on the <a href="https://github.com/dankcuddlybear/vapourepo">Github repository</a>. Vapour OS is completely free and open source, so use the source code as you wish.
+				If you want to improve Vapour OS, make your own version or use code for your projects, all the source code is available on the <a href="https://github.com/dankcuddlybear/vapourepo">Github repository</a>. Vapour OS is completely free and open source<sup style="color:grey;">3</sup>, so use the source code as you wish.
 			</p>
 			<img src="img/clear.png" width=100% height=1px>
 			<br>
 			<br>
-			<h1 align="center">Download Vapour OS</h1>
+			<h1 id="download" align="center">Download Vapour OS</h1>
+			<h3 style="color:red;" align=center>Vapour OS is still in beta. Everything is tested and working, but there may still be bugs.</h3>
 			<p>
-				Vapour OS comes in two editions: a middleweight edition based on the KDE Plasma desktop, and a lightweight edition for older devices based on the XFCE desktop. The KDE Plasma version is recommended for most users as it has the most features and more frequent updates. You can always switch from one edition to another without reinstalling.
-				<a href="https://www.mediafire.com/folder/rhzte1lujikzv/Vapour_OS_ISO">Mediafire</a>
+				Vapour OS comes in two editions: a middleweight edition based on the KDE Plasma desktop, and a lightweight edition for older devices based on the XFCE desktop. The KDE Plasma version is recommended for most users as it has the most features and more frequent updates. You can always switch from one desktop to another without reinstalling.
 			</p>
 			<img src="img/screenshot/plasma.jpg" width=25% alt="KDE Plasma desktop" align="left" style="padding-right: 2em;" padding-bottom: 2em;">
 			<h2>Vapour OS KDE</h2>
@@ -87,8 +92,14 @@
 				<br><b>Storage:</b> 6GiB
 			</p>
 			<img src="img/clear.png" width=100% height=1px>
-				<h2 align=center><a href="https://www.mediafire.com/folder/rhzte1lujikzv/Vapour_OS_ISO" target="_blank">Download Vapour OS</a></h2>
+			<h2 align=center><a href="https://www.mediafire.com/folder/rhzte1lujikzv/Vapour_OS_ISO" target="_blank">Download Vapour OS</a></h2>
+			<h2 align="center"><a href="https://github.com/dankcuddlybear/Vapour-OS/wiki/Creating-bootable-install-media">Installation instructions</a></h2>
 			<img src="img/clear.png" width=100% height=1px>
+			<p style="color:grey;font-size:0.75em;">
+				1. AUR software is built from source automatically with the PKGbuild system. AUR PKGbuilds are not guaranteed to be working, up-to-date or secure. Installing AUR software may make your system unstable. Install AUR software at your own risk. Some AUR packages are included in the CachyOS/Chaotic-AUR repositories - these are perfectly safe.
+				<br>2. Compatibility is not guaranteed. Some games may have glitches or may refuse to work altogether due to anti-cheat/anti-piracy protection or using ancient code. Look for games that are "Steam Deck verified" on the Steam store.
+				<br>3. All code for Vapour OS is open source, but Vapour OS still includes closed-source components (Nvidia drivers for example).
+			</p>
 		</div>
 	</body>
 </html>
